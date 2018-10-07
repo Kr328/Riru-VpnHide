@@ -1,0 +1,7 @@
+id=riru_vpnhide
+name=Riru - VPN Hide
+version=v1
+versionCode=1
+author=Kr328
+description=Hide VPN [( Riru - Core && API 26/27 ) Required]
+minMagisk=1500
