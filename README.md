@@ -18,4 +18,4 @@ A module of [Riru](https://github.com/RikkaApps/Riru). Hide VPN from Connectivit
 ``` Gradle 
 ./gradlew build
 ```
-
+  4.Pick magisk-module.zip from build/outputs
