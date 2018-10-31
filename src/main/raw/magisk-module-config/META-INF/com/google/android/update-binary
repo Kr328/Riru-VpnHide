@@ -94,8 +94,11 @@ ui_print "******************************"
 # Install
 ##########################################################################################
 
+# Check API Level
+check_system_api
+
 # Check Riru installed
-check_ruri_installed
+check_riru_installed
 
 # Get the variable reqSizeM. Use your own method to determine reqSizeM if needed
 request_zip_size_check "$ZIP"

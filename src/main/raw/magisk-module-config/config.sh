@@ -98,7 +98,14 @@ set_permissions() {
 # difficult for you to migrate your modules to newer template versions.
 # Make update-binary as clean as possible, try to only do function calls in it.
 
-check_ruri_installed() {
+check_system_api() {
+	if [ "$ABI" != "26" ] || [ "$ABI" != "27" ] ;then
+		ui_print "Unspported API Level $ABI"
+		exit 1
+	fi
+}
+
+check_riru_installed() {
     if [ ! -d "/data/misc/riru" ];then
         ui_print "!Riru not installed"
         ui_print "!You *MUST* install it first"

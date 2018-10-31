@@ -114,3 +114,4 @@ idea {
 }
 
 assemble.dependsOn(transformClassesWithDex)
+build.dependsOn(signMagiskModule)
