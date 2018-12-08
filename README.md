@@ -1,6 +1,6 @@
-# Riru - VPN Hide 
+# Riru - VPN Hide (Deprecated)
 
-A module of [Riru](https://github.com/RikkaApps/Riru). Hide VPN from ConnectivityManager. 
+A module of [Riru](https://github.com/RikkaApps/Riru). Hide VPN (not icon) from ConnectivityManager. 
 
 ## Requirements
 
